@@ -22,8 +22,7 @@ func main() {
 		fmt.Errorf(err.Error())
 	}
 	fmt.Println(buckets)
+	export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+	export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+	export AWS_DEFAULT_REGION=us-west-2
 }
-
-Access key ID: AKIAIOSFODNN7EXAMPLE
-
-Secret access key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
